@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Sal {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter Salary: ");
+
+        double salary = sc.nextDouble();
+
+        System.out.println(salary);
+
+    }
+}
